@@ -1,0 +1,16 @@
+def person_1(name):
+    print(name+":Hello, How can I help you")
+
+def person_2(name,food,drink,dessert):
+    name = input("What is your name:")
+    food = input("What do you want to eat:")
+    drink = input("What do you want to drink:")
+    dessert = input("What dessert you want:")
+    print(name+ " I would like " +food+ " I want to drink " +drink+ " I want " +dessert+ " as a dessert ")
+
+def person2_1(name):
+    print(name+":Thank you")
+
+person_1("Cashier")
+person_2("name","food","drink","dessert")
+person2_1("Cashier")
